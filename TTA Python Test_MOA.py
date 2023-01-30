@@ -10,10 +10,11 @@ import pandas as pd
 import numpy as np
 
 # Variable Delcerations
+# Please change "USERNAME" to your respective username
 deal_csv = "deal.csv"
 price_csv = "price.csv"
 convrate_csv = "convrate.csv"
-fileDIR = "C:\\Users\\Aloysius Chew\\Documents\\Work\\Internships\\TotalEnergies\\Test\\"
+fileDIR = "C:\\Users\\USERNAME\\Downloads\\"
 
 # Import files in a DataFrame
 deal_df = pd.read_csv(r"" + fileDIR + deal_csv)
